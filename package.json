@@ -1,10 +1,10 @@
 {
   "name": "burritotime",
-  "description": "Order a burrito at Chipotle without messing around with point and click",
-  "version": "0.1.1",
+  "description": "Order a burrito at Chipotle from the command line",
+  "version": "1.0",
   "homepage": "https://github.com/escott/burritotime",
   "author": {
-    "name": "cre8tivecode",
+    "name": "Erik Scott",
     "email": "escott@book.com"
   },
   "repository": {
