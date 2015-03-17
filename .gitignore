@@ -1,3 +1,4 @@
-devdoc
+.npmignore
 node_modules
+devdoc
 npm-debug.log
