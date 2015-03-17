@@ -1,28 +1,28 @@
 {
-  "name": "burritotime",
+  "name": "cli-burrito-maker",
   "description": "Order a burrito at Chipotle from the command line",
-  "version": "1.0",
-  "homepage": "https://github.com/escott/burritotime",
+  "version": "0.0.1",
+  "homepage": "https://github.com/escott-/burrito",
   "author": {
     "name": "Erik Scott",
-    "email": "escott@book.com"
+    "email": "escott@yuzu.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/escott/burritotime.git"
+    "url": "git://github.com/escott-/burrito.git"
   },
   "bugs": {
-    "url": "https://github.com/escott/burritotime/issues"
+    "url": "https://github.com/escott-/burrito/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/escott/burritotime/blob/master/LICENSE-MIT"
+      "url": "https://github.com/escott-/burrito/blob/master/LICENSE-MIT"
     }
   ],
   "main": "./lib/captureOrder",
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">= 0.10.29"
   },
   "scripts": {
     "test": ""
@@ -30,7 +30,9 @@
   "dependencies": {
     "inquirer": ">= 0.3.4",
     "async": ">= 0.2.9",
-    "cli-color": ">= 0.2.3"
+    "cli-color": ">= 0.2.3",
+    "casperjs": ">= 1.1.0-beta3",
+    "phantomjs": ">= 1.9.16"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
@@ -39,7 +41,7 @@
     "grunt": "~0.4.1"
   },
   "bin": {
-      "burritotime": "./bin/burritotime"
+      "burrito": "bin/burrito.bin.js"
   },
-  "keywords": ["chipotle", "burrito", "cli"]
+  "keywords": ["chipotle", "burrito"]
 }
